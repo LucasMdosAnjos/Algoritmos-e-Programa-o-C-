@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include  <stdlib.h>
+#include <math.h>
+
+int main() 
+{
+	int x, v;
+	for(x=1;x<=10;x++)
+	{
+		printf("Informe um valor: ");
+		scanf("%d", &v);
+		printf("%d", sqrt(v));
+	}
+	return 0;
+}
